@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/stockbot?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Seoul
+    username: stockbot
+    password: stockbot
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  mail:
+    host: localhost
+    port: 1025
+    properties:
+      mail:
+        smtp:
+          auth: false
+          starttls:
+            enable: false
+jwt:
+  secret: local-dev-secret-key-minimum-256-bits-long-for-hs256-algorithm-stockbot
+  access-token-ttl: 15m
+  refresh-token-ttl: 7d
+app:
+  frontend-url: http://localhost:5173
