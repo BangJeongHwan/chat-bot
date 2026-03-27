@@ -104,38 +104,36 @@
 
 ## Traceability
 
-*(Populated during roadmap creation)*
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| AUTH-01 | — | Pending |
-| AUTH-02 | — | Pending |
-| AUTH-03 | — | Pending |
-| AUTH-04 | — | Pending |
-| ACCT-01 | — | Pending |
-| ACCT-02 | — | Pending |
-| ACCT-03 | — | Pending |
-| MKTD-01 | — | Pending |
-| MKTD-02 | — | Pending |
-| MKTD-03 | — | Pending |
-| MKTD-04 | — | Pending |
-| ORDR-01 | — | Pending |
-| ORDR-02 | — | Pending |
-| ORDR-03 | — | Pending |
-| ORDR-04 | — | Pending |
-| ORDR-05 | — | Pending |
-| ORDR-06 | — | Pending |
-| ORDR-07 | — | Pending |
-| PORT-01 | — | Pending |
-| PORT-02 | — | Pending |
-| PORT-03 | — | Pending |
-| PORT-04 | — | Pending |
+| AUTH-01 | Phase 1 | Pending |
+| AUTH-02 | Phase 1 | Pending |
+| AUTH-03 | Phase 1 | Pending |
+| AUTH-04 | Phase 1 | Pending |
+| ACCT-01 | Phase 1 | Pending |
+| MKTD-01 | Phase 2 | Pending |
+| MKTD-02 | Phase 2 | Pending |
+| MKTD-03 | Phase 2 | Pending |
+| MKTD-04 | Phase 2 | Pending |
+| ORDR-01 | Phase 2 | Pending |
+| ORDR-02 | Phase 2 | Pending |
+| ORDR-03 | Phase 2 | Pending |
+| ORDR-04 | Phase 2 | Pending |
+| ORDR-05 | Phase 2 | Pending |
+| ORDR-06 | Phase 2 | Pending |
+| ORDR-07 | Phase 2 | Pending |
+| PORT-01 | Phase 3 | Pending |
+| PORT-02 | Phase 3 | Pending |
+| PORT-03 | Phase 3 | Pending |
+| PORT-04 | Phase 3 | Pending |
+| ACCT-02 | Phase 3 | Pending |
+| ACCT-03 | Phase 3 | Pending |
 
 **Coverage:**
 - v1 requirements: 22 total
-- Mapped to phases: 0 (roadmap 생성 후 업데이트)
-- Unmapped: 22 ⚠️
+- Mapped to phases: 22
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-03-26*
-*Last updated: 2026-03-26 after initial definition*
+*Last updated: 2026-03-26 after roadmap creation — traceability populated*
