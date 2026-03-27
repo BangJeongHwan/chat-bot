@@ -12,7 +12,7 @@ StockBot delivers a paper trading simulator where users practice investing with 
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation and Authentication** - DB schema baseline, JWT auth, and default virtual account auto-creation
+- [x] **Phase 1: Foundation and Authentication** - DB schema baseline, JWT auth, and default virtual account auto-creation (completed 2026-03-27)
 - [ ] **Phase 2: Market Data and Order Execution** - Real market price cache and atomic order fill engine (co-developed)
 - [ ] **Phase 3: Portfolio Dashboard and Account Features** - P&L dashboard, FX rate application, and transaction history
 
@@ -65,6 +65,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation and Authentication | 1/2 | In Progress|  |
+| 1. Foundation and Authentication | 2/2 | Complete   | 2026-03-27 |
 | 2. Market Data and Order Execution | 0/? | Not started | - |
 | 3. Portfolio Dashboard and Account Features | 0/? | Not started | - |

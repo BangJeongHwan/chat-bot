@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: executing
-stopped_at: Completed 01-01-PLAN.md
-last_updated: "2026-03-27T09:47:59.517Z"
+status: verifying
+stopped_at: Completed 01-foundation-and-authentication 01-02-PLAN.md
+last_updated: "2026-03-27T09:54:41.549Z"
 last_activity: 2026-03-27
 progress:
   total_phases: 3
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 2
-  completed_plans: 1
+  completed_plans: 2
   percent: 0
 ---
 
@@ -27,7 +27,7 @@ See: .planning/PROJECT.md (updated 2026-03-26)
 
 Phase: 01 (foundation-and-authentication) — EXECUTING
 Plan: 2 of 2
-Status: Ready to execute
+Status: Phase complete — ready for verification
 Last activity: 2026-03-27
 
 Progress: [░░░░░░░░░░] 0%
@@ -53,6 +53,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 01 P01 | 6 | 2 tasks | 12 files |
+| Phase 01-foundation-and-authentication P02 | 3min | 2 tasks | 17 files |
 
 ## Accumulated Context
 
@@ -67,6 +68,9 @@ Recent decisions affecting current work:
 - [Phase 01]: Spring Boot 3.5.13 with Kotlin 2.2.0 and Java 21 toolchain — matches CLAUDE.md constraints exactly
 - [Phase 01]: CHAR(36) for all UUID primary keys (not BINARY(16)) — human-readable for debugging
 - [Phase 01]: DECIMAL(18,2) KRW / DECIMAL(18,4) USD — BigDecimal precision for financial arithmetic per D-09
+- [Phase 01-02]: rotateRefreshToken delegates user context to AuthService; TokenService returns userId only, AuthService reloads user to issue correctly-populated JWT
+- [Phase 01-02]: Refresh token rotation invalidates ALL user sessions (deleteByUserId) on each refresh per D-04 security requirement
+- [Phase 01-02]: Refresh token stored as SHA-256 hash in DB; raw UUID sent to client via httpOnly secure Strict cookie with 7-day maxAge
 
 ### Pending Todos
 
@@ -79,6 +83,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-27T09:47:59.514Z
-Stopped at: Completed 01-01-PLAN.md
+Last session: 2026-03-27T09:54:41.546Z
+Stopped at: Completed 01-foundation-and-authentication 01-02-PLAN.md
 Resume file: None
