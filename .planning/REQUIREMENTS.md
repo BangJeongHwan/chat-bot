@@ -7,14 +7,14 @@
 
 ### Authentication (AUTH)
 
-- [ ] **AUTH-01**: 사용자가 이메일과 비밀번호로 회원가입할 수 있다 (bcrypt salt 12)
+- [x] **AUTH-01**: 사용자가 이메일과 비밀번호로 회원가입할 수 있다 (bcrypt salt 12)
 - [ ] **AUTH-02**: 회원가입 후 이메일 인증 링크를 받을 수 있다
 - [ ] **AUTH-03**: 사용자가 이메일 링크로 비밀번호를 재설정할 수 있다
-- [ ] **AUTH-04**: 사용자 세션이 브라우저 새로고침 후에도 유지된다 (JWT Refresh Token)
+- [x] **AUTH-04**: 사용자 세션이 브라우저 새로고침 후에도 유지된다 (JWT Refresh Token)
 
 ### Account (ACCT)
 
-- [ ] **ACCT-01**: 회원가입 시 원화 잔고 1억원의 기본 모의계좌가 자동 생성된다
+- [x] **ACCT-01**: 회원가입 시 원화 잔고 1억원의 기본 모의계좌가 자동 생성된다
 - [ ] **ACCT-02**: 사용자가 계좌의 원화(KRW)와 달러(USD) 잔고를 별도로 조회할 수 있다
 - [ ] **ACCT-03**: 해외 주식 거래 시 실시간 환율이 원화 환산 총자산에 반영된다
 
@@ -106,11 +106,11 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| AUTH-01 | Phase 1 | Pending |
+| AUTH-01 | Phase 1 | Complete |
 | AUTH-02 | Phase 1 | Pending |
 | AUTH-03 | Phase 1 | Pending |
-| AUTH-04 | Phase 1 | Pending |
-| ACCT-01 | Phase 1 | Pending |
+| AUTH-04 | Phase 1 | Complete |
+| ACCT-01 | Phase 1 | Complete |
 | MKTD-01 | Phase 2 | Pending |
 | MKTD-02 | Phase 2 | Pending |
 | MKTD-03 | Phase 2 | Pending |

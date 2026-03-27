@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: planning
-stopped_at: Phase 1 context gathered
-last_updated: "2026-03-27T05:00:37.843Z"
-last_activity: 2026-03-26 — Roadmap created, requirements mapped across 3 phases
+status: executing
+stopped_at: Completed 01-01-PLAN.md
+last_updated: "2026-03-27T09:47:59.517Z"
+last_activity: 2026-03-27
 progress:
   total_phases: 3
   completed_phases: 0
-  total_plans: 0
-  completed_plans: 0
+  total_plans: 2
+  completed_plans: 1
   percent: 0
 ---
 
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-26)
 
 **Core value:** 실제 시장 데이터 기반의 사실적인 주문 체결 시뮬레이션 — 이것이 동작하지 않으면 나머지는 의미 없다.
-**Current focus:** Phase 1 — Foundation and Authentication
+**Current focus:** Phase 01 — foundation-and-authentication
 
 ## Current Position
 
-Phase: 1 of 3 (Foundation and Authentication)
-Plan: 0 of ? in current phase
-Status: Ready to plan
-Last activity: 2026-03-26 — Roadmap created, requirements mapped across 3 phases
+Phase: 01 (foundation-and-authentication) — EXECUTING
+Plan: 2 of 2
+Status: Ready to execute
+Last activity: 2026-03-27
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -52,6 +52,7 @@ Progress: [░░░░░░░░░░] 0%
 - Trend: —
 
 *Updated after each plan completion*
+| Phase 01 P01 | 6 | 2 tasks | 12 files |
 
 ## Accumulated Context
 
@@ -63,6 +64,9 @@ Recent decisions affecting current work:
 - [Init]: Web-first development; Phase 1-3 scope only
 - [Init]: REST polling for v1 market data (WebSocket deferred to Phase 4)
 - [Init]: BigDecimal mandatory for all financial arithmetic — must be enforced from Phase 1 schema and service layer
+- [Phase 01]: Spring Boot 3.5.13 with Kotlin 2.2.0 and Java 21 toolchain — matches CLAUDE.md constraints exactly
+- [Phase 01]: CHAR(36) for all UUID primary keys (not BINARY(16)) — human-readable for debugging
+- [Phase 01]: DECIMAL(18,2) KRW / DECIMAL(18,4) USD — BigDecimal precision for financial arithmetic per D-09
 
 ### Pending Todos
 
@@ -75,6 +79,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-27T05:00:37.841Z
-Stopped at: Phase 1 context gathered
-Resume file: .planning/phases/01-foundation-and-authentication/01-CONTEXT.md
+Last session: 2026-03-27T09:47:59.514Z
+Stopped at: Completed 01-01-PLAN.md
+Resume file: None
